@@ -1,0 +1,23 @@
+header {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    align-items: center; 
+    gap: 150px;  
+}
+.navigation-links {
+    display: flex;
+    gap: 25px;
+}
+.navigation-links hr {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
