@@ -1,8 +1,10 @@
+/*headerand navigation*/
 header {
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
 }
+/*navigation links*/
 nav {
     display: flex;
     align-items: center; 
@@ -20,4 +22,41 @@ nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+/*hero section*/
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/*hero buttons*/
+.hero button:first-of-type {
+    background-color: #9425d9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.hero button:last-of-type {
+    background-color: #d9d8d9;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.hero button {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
